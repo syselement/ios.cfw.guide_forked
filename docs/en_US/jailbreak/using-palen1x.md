@@ -70,7 +70,7 @@ If you do have issues, get a USB-A to Lightning cable and, if necessary, also ge
 :::
 
 1. Once you have loaded palen1x, select `Shell`
-1. Type `palera1n -e thid_should_crash=0`
+1. Type `palera1n`
 1. Follow the on screen instructions to enter <router-link to="/faq/#what-is-dfu-mode">DFU mode</router-link>.
 
 ::: tip
@@ -90,6 +90,6 @@ Once the device boots up, open the palera1n loader app and tap `Sileo`. After a 
 
 To rejailbreak your device, simply rerun the command you just ran and then repeat any other applicable steps.
 
-Alternatively, if you are on 15.0 to 15.8.1, you can use <router-link to="/installing-meowbrek2">meowbrek2</router-link> to rejailbreak as well.
+Alternatively, if you're on versions 15.0 to 16.6.1, you can follow <router-link to="/installing-dopamine">Installing Dopamine</router-link> to install a permanently signed semi-untethered jailbreak, which will allow you to rejailbreak your device without a computer.
 
 :::
