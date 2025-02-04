@@ -64,7 +64,7 @@ If you're using an Apple Silicon Mac and using a USB-C port to plug your cable/a
 
 :::
 
-1. Run `palera1n`
+1. Run `palera1n -l`
     - Make sure your device is plugged in when entering this command
 1. When ready, press `Enter` and follow the on screen instructions to enter <router-link to="/faq/#what-is-dfu-mode">DFU mode</router-link>.
 
@@ -85,19 +85,15 @@ You'll need to do this every time you rejailbreak your device as well.
 
 ::: danger
 
-Depending on the Linux distribution you are using, you may run into issues with the latest version (2.0.0b9) of palera1n.
-
-If you do run into issues, you have four options:
-- Obtain a Mac and follow the macOS tab instead.
-- Try to use a different Linux distribution instead (e.g. Ubuntu).
-- <router-link to="/using-palen1x">Use palen1x</router-link> instead, which does not have this issue.
-- **If you are trying to jailbreak a 15.0 to 16.7.4 device**, you can manually install [palera1n 2.0.0b7](https://github.com/palera1n/palera1n/releases/tag/v2.0.0-beta.7) instead.
+If you are trying to use a Virtual Machine software of some sort from Windows (e.g. Virtualbox, VMWare, Windows Subsystem for Linux, etc) you will not succeed with following this guide.
 
 :::
 
-::: danger
+::: warning
 
-If you are trying to use a Virtual Machine software of some sort from Windows (e.g. Virtualbox, VMWare, Windows Subsystem for Linux, etc) you will not succeed with following this guide.
+Ubuntu-based Linux distributions are known to have issues successfully running palera1n.
+
+If you are using a UBuntu-based Linux distribution and do run into issues, it's recommended to either use another Linux distribution or follow <router-link to="/using-palen1x">Using palen1x</router-link> instead.
 
 :::
 
@@ -125,7 +121,7 @@ If you do have issues, get a USB-A to Lightning cable and, if necessary, also ge
 
 ### Running palera1n
 
-1. Run `sudo palera1n`
+1. Run `sudo palera1n -l`
     - Make sure your device is plugged in when entering this command
 1. When ready, press `Enter` and follow the on screen instructions to enter <router-link to="/faq/#what-is-dfu-mode">DFU mode</router-link>.
 

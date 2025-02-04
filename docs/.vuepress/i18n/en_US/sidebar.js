@@ -12,10 +12,6 @@ const guides = {
     '/sideloading-apps/',
     '/blocking-jailbreak-detection/',
     '/updating-blobless/',
-    {
-      text: 'FutureRestore',
-      link:'/futurerestore/',
-    },
   ],
 }
 
@@ -35,9 +31,9 @@ const pkgman = {
 const jailbreaking = {
   text: 'Jailbreaking',
   children: [
-    '/installing-palera1n',
+    '/installing-palera1n/',
     '/installing-dopamine/',
-    '/installing-meowbrek2',
+    '/installing-chimera/',
   ],
 }
 
